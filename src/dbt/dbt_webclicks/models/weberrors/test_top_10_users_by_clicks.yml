@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: top_10_users_by_clicks
+    columns:
+      - name: ip
+        tests:
+          - not_null
+          - unique
