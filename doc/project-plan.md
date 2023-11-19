@@ -7,10 +7,10 @@ The objective of this project is to provide meaningful reports from real-time we
 The users of our datasets are Data Analysts, Product Managers, and Software Developers. They want to access our data via curated serving tables and via dashboards.
 
 ## Questions 
-> - What is average response time on the site? 
-> - What are the top 10 response times for resources? 
+> - What is the hourly amount of errors not related to content not found (404) errors?
+> - What is the hourly amount of errors due to content not found (404) errors?
 > - What percentage of requests are successful? 
-> - What are the top 10 geographic areas accessing the site? 
+> - Which are the top 10 IP addresses using the site determine by total number of clicks? 
 
 ## Source datasets 
 | Source name | Source type | Source documentation |
