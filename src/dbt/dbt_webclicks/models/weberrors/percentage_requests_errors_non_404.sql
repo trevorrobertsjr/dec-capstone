@@ -9,5 +9,5 @@ s as (
     from {{ source('default', 'webclicks') }}
     where status not like '5%' and status not like '4%'
 )
-select 100*e.errors / (s.successes+e.errors)
+select 100*e.errors / (s.successes+e.errors) as percentage_non_404_errors
 from e,s

@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: errors_404_hourly
+    columns:
+      - name: errors
+        tests:
+          - not_null
+  - name: errors_non_404_hourly
+    columns:
+      - name: errors
+        tests:
+          - not_null
+  - name: percentage_requests_errors_404
+    columns:
+      - name: percentage_404_errors
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">=0"
+          - dbt_utils.expression_is_true:
+              expression: "<=100"
+  - name: percentage_requests_errors_non_404
+    columns:
+      - name: percentage_non_404_errors
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">=0"
+          - dbt_utils.expression_is_true:
+              expression: "<=100"
