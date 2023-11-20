@@ -1,3 +1,5 @@
+# Verify that the IP address fields are not null and that there are unique entries in the top 10 list.
+
 version: 2
 
 models:

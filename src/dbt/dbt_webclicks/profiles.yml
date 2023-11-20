@@ -1,0 +1,11 @@
+clickhouse_webclicks:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: webclicks_dbt
+      host: ihmzundxsl.us-east-1.aws.clickhouse.cloud
+      port: 8443
+      user: default
+      password: "{{ env_var('DBT_PASSWORD') }}"
+      secure: True

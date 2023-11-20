@@ -17,7 +17,7 @@ The users of our datasets are Data Analysts, Product Managers, and Software Deve
 ## Source datasets 
 | Source name | Source type | Source documentation |
 | - | - | - |
-| Confluent Datagen - Clickstreaming | Stream | - | 
+| Confluent Datagen - Clickstreaming | Stream | Live dataset of continuously-generated web traffic data | 
 
 ## Solution architecture
 ![../img/solution-architecture.png](../img/solution-architecture.png)
