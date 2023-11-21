@@ -1,4 +1,4 @@
-# dec-captsone
+# dec-capstone
 
 This repo contains source code and documentation for the DEC Capstone Project
 

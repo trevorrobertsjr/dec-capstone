@@ -5,3 +5,5 @@ The [sql](sql/) folder contains sample SQL queries written to validate the DBT m
 The [dbt](dbt/) folder contains automation used to build the tables and tests used in the project
 
 The five models and eight tests can be found in the [models](dbt/dbt_weblicks/models) folder.
+
+The [Dockerfile](Dockerfile) is used to execute dbt via ECS
